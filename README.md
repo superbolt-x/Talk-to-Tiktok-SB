@@ -60,8 +60,7 @@ Add to your MCP client configuration (e.g., Claude Desktop):
       "args": ["/path/to/adsmcp-server/run_server.py"],
       "cwd": "/path/to/adsmcp-server",
       "env": {
-        "TIKTOK_APP_ID": "your_app_id",
-        "TIKTOK_APP_SECRET": "your_app_secret",
+        "TIKTOK_ACCESS_TOKEN": "your_access_token"
       }
     }
   }
