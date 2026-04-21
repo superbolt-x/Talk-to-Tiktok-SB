@@ -22,7 +22,7 @@ class SimpleTikTokOAuth:
     AUTHORIZATION_URL = "https://business-api.tiktok.com/portal/auth"
     TOKEN_URL = "https://business-api.tiktok.com/open_api/v1.3/oauth2/access_token/"
     
-    def __init__(self, app_id: str, app_secret: str, redirect_uri: str = "https://adsmcp.com"):
+    def __init__(self, app_id: str, app_secret: str, redirect_uri: str = "https://www.superbolt.agency/"):
         """Initialize OAuth client.
         
         Args:
